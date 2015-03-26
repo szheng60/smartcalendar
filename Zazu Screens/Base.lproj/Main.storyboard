@@ -64,7 +64,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pfh-FF-PzW">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                                        <rect key="frame" x="333" y="37" width="50" height="50"/>
+                                                        <rect key="frame" x="333" y="40" width="50" height="50"/>
                                                     </variation>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="created by Creator" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13F-bx-mSt">
@@ -73,7 +73,7 @@
                                                     <color key="textColor" red="0.38001104797979801" green="0.38001104797979801" blue="0.38001104797979801" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="271" y="14" width="112" height="21"/>
+                                                        <rect key="frame" x="271" y="9" width="112" height="21"/>
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attendees:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYk-ja-8o1">
@@ -152,12 +152,12 @@
                                                 <constraint firstItem="WEP-oq-3kg" firstAttribute="leading" secondItem="62p-K6-qn4" secondAttribute="leading" id="LHY-13-ZO5"/>
                                                 <constraint firstItem="WEP-oq-3kg" firstAttribute="leading" secondItem="HYk-ja-8o1" secondAttribute="trailing" constant="2" id="LdU-cY-Xdz"/>
                                                 <constraint firstItem="LVC-7S-WjR" firstAttribute="top" secondItem="ysL-To-cnw" secondAttribute="bottom" constant="11" id="Nqr-Nm-lfa"/>
-                                                <constraint firstItem="13F-bx-mSt" firstAttribute="top" secondItem="6qf-rq-kqu" secondAttribute="topMargin" id="QoS-Go-nRb"/>
                                                 <constraint firstItem="6Q8-bS-Lct" firstAttribute="top" secondItem="6qf-rq-kqu" secondAttribute="topMargin" constant="5" id="SmD-X7-beh"/>
                                                 <constraint firstItem="HYk-ja-8o1" firstAttribute="top" secondItem="LVC-7S-WjR" secondAttribute="bottom" constant="2" id="UUf-7Y-TYP"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="13F-bx-mSt" secondAttribute="trailing" constant="9" id="Uvb-K0-pbZ"/>
+                                                <constraint firstItem="62p-K6-qn4" firstAttribute="top" secondItem="13F-bx-mSt" secondAttribute="bottom" constant="10" id="Wda-cp-kWh"/>
                                                 <constraint firstItem="62p-K6-qn4" firstAttribute="firstBaseline" secondItem="LVC-7S-WjR" secondAttribute="firstBaseline" id="ayT-VH-Y0M"/>
                                                 <constraint firstItem="ysL-To-cnw" firstAttribute="top" secondItem="6qf-rq-kqu" secondAttribute="topMargin" id="c8L-jd-iEP"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="13F-bx-mSt" secondAttribute="trailing" constant="9" id="dnk-dM-Bvq"/>
                                                 <constraint firstItem="HYk-ja-8o1" firstAttribute="leading" secondItem="ysL-To-cnw" secondAttribute="leading" id="eh0-TH-ebX"/>
                                                 <constraint firstItem="62p-K6-qn4" firstAttribute="baseline" secondItem="LVC-7S-WjR" secondAttribute="baseline" id="f16-QJ-FPs"/>
                                                 <constraint firstItem="WEP-oq-3kg" firstAttribute="firstBaseline" secondItem="HYk-ja-8o1" secondAttribute="firstBaseline" id="h61-eY-83U"/>
@@ -191,6 +191,7 @@
                                                     <exclude reference="UUf-7Y-TYP"/>
                                                     <exclude reference="eh0-TH-ebX"/>
                                                     <exclude reference="mqL-lM-yMG"/>
+                                                    <exclude reference="Wda-cp-kWh"/>
                                                     <exclude reference="ayT-VH-Y0M"/>
                                                     <exclude reference="f16-QJ-FPs"/>
                                                     <exclude reference="1Ri-dw-JMq"/>
@@ -198,8 +199,7 @@
                                                     <exclude reference="LdU-cY-Xdz"/>
                                                     <exclude reference="h61-eY-83U"/>
                                                     <exclude reference="z6P-tI-YqJ"/>
-                                                    <exclude reference="QoS-Go-nRb"/>
-                                                    <exclude reference="Uvb-K0-pbZ"/>
+                                                    <exclude reference="dnk-dM-Bvq"/>
                                                     <exclude reference="7aR-6L-kTa"/>
                                                     <exclude reference="hoH-aj-kcX"/>
                                                     <exclude reference="huK-Vc-5W9"/>
@@ -228,6 +228,7 @@
                                                     <include reference="UUf-7Y-TYP"/>
                                                     <include reference="eh0-TH-ebX"/>
                                                     <include reference="mqL-lM-yMG"/>
+                                                    <include reference="Wda-cp-kWh"/>
                                                     <include reference="ayT-VH-Y0M"/>
                                                     <include reference="f16-QJ-FPs"/>
                                                     <include reference="1Ri-dw-JMq"/>
@@ -235,8 +236,7 @@
                                                     <include reference="LdU-cY-Xdz"/>
                                                     <include reference="h61-eY-83U"/>
                                                     <include reference="z6P-tI-YqJ"/>
-                                                    <include reference="QoS-Go-nRb"/>
-                                                    <include reference="Uvb-K0-pbZ"/>
+                                                    <include reference="dnk-dM-Bvq"/>
                                                     <include reference="7aR-6L-kTa"/>
                                                     <include reference="hoH-aj-kcX"/>
                                                     <include reference="huK-Vc-5W9"/>

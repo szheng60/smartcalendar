@@ -50,6 +50,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: EventTableViewCell = eventsTableView.dequeueReusableCellWithIdentifier("EventCell") as EventTableViewCell
         
+        /*
         if indexPath.row % 2 == 0
         {
             cell.backgroundColor = UIColor.grayColor()
@@ -58,6 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         {
             cell.backgroundColor = UIColor.whiteColor()
         }
+        */
         
         return cell
     }
