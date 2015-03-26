@@ -13,6 +13,10 @@
 		5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4A1AC4518A000C0A44 /* binjie.jpg */; };
 		5511AC4D1AC4518E000C0A44 /* song.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4C1AC4518E000C0A44 /* song.jpg */; };
 		5511AC5A1AC49FCA000C0A44 /* gokul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC591AC49FCA000C0A44 /* gokul.jpg */; };
+		55D3E2051AC4ADF500B8B762 /* CreateMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3E2041AC4ADF500B8B762 /* CreateMeetingViewController.swift */; };
+		55D3E2091AC4B67900B8B762 /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3E2081AC4B67900B8B762 /* PopDatePicker.swift */; };
+		55D3E20B1AC4B68500B8B762 /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3E20A1AC4B68500B8B762 /* PopDateViewController.swift */; };
+		55D3E20D1AC4B6C300B8B762 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D3E20C1AC4B6C300B8B762 /* PopDateViewController.xib */; };
 		55DF2E801AC42FB400496B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */; };
 		55DF2E821AC42FB400496B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E811AC42FB400496B13 /* ViewController.swift */; };
 		55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2E831AC42FB400496B13 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 		5511AC4A1AC4518A000C0A44 /* binjie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = binjie.jpg; sourceTree = SOURCE_ROOT; };
 		5511AC4C1AC4518E000C0A44 /* song.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = song.jpg; sourceTree = SOURCE_ROOT; };
 		5511AC591AC49FCA000C0A44 /* gokul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gokul.jpg; sourceTree = SOURCE_ROOT; };
+		55D3E2041AC4ADF500B8B762 /* CreateMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMeetingViewController.swift; sourceTree = "<group>"; };
+		55D3E2081AC4B67900B8B762 /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
+		55D3E20A1AC4B68500B8B762 /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopDateViewController.swift; path = PopDatePicker/PopDateViewController.swift; sourceTree = "<group>"; };
+		55D3E20C1AC4B6C300B8B762 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopDateViewController.xib; path = PopDatePicker/PopDateViewController.xib; sourceTree = "<group>"; };
 		55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zazu Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DF2E7E1AC42FB400496B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 				55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */,
 				55DF2E811AC42FB400496B13 /* ViewController.swift */,
 				55DF2E831AC42FB400496B13 /* Main.storyboard */,
+				55D3E2041AC4ADF500B8B762 /* CreateMeetingViewController.swift */,
 				5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */,
 				55DF2E861AC42FB400496B13 /* Images.xcassets */,
 				55DF2E881AC42FB400496B13 /* LaunchScreen.xib */,
@@ -116,6 +125,9 @@
 		55DF2E7D1AC42FB400496B13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55D3E20C1AC4B6C300B8B762 /* PopDateViewController.xib */,
+				55D3E20A1AC4B68500B8B762 /* PopDateViewController.swift */,
+				55D3E2081AC4B67900B8B762 /* PopDatePicker.swift */,
 				55DF2E7E1AC42FB400496B13 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -224,6 +236,7 @@
 				5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */,
 				55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */,
 				55DF2E8A1AC42FB400496B13 /* LaunchScreen.xib in Resources */,
+				55D3E20D1AC4B6C300B8B762 /* PopDateViewController.xib in Resources */,
 				55DF2E871AC42FB400496B13 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,9 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5511AC451AC44DD8000C0A44 /* Event.swift in Sources */,
+				55D3E2051AC4ADF500B8B762 /* CreateMeetingViewController.swift in Sources */,
 				5511AC431AC4450D000C0A44 /* EventTableViewCell.swift in Sources */,
+				55D3E2091AC4B67900B8B762 /* PopDatePicker.swift in Sources */,
 				55DF2E821AC42FB400496B13 /* ViewController.swift in Sources */,
 				55DF2E801AC42FB400496B13 /* AppDelegate.swift in Sources */,
+				55D3E20B1AC4B68500B8B762 /* PopDateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
