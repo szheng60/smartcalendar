@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		5511AC431AC4450D000C0A44 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */; };
 		5511AC451AC44DD8000C0A44 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511AC441AC44DD8000C0A44 /* Event.swift */; };
-		5511AC471AC450CB000C0A44 /* gokul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC461AC450CB000C0A44 /* gokul.jpg */; };
 		5511AC491AC4514F000C0A44 /* saajan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC481AC4514F000C0A44 /* saajan.jpg */; };
 		5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4A1AC4518A000C0A44 /* binjie.jpg */; };
 		5511AC4D1AC4518E000C0A44 /* song.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4C1AC4518E000C0A44 /* song.jpg */; };
+		5511AC5A1AC49FCA000C0A44 /* gokul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC591AC49FCA000C0A44 /* gokul.jpg */; };
 		55DF2E801AC42FB400496B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */; };
 		55DF2E821AC42FB400496B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E811AC42FB400496B13 /* ViewController.swift */; };
 		55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2E831AC42FB400496B13 /* Main.storyboard */; };
@@ -34,10 +34,10 @@
 /* Begin PBXFileReference section */
 		5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		5511AC441AC44DD8000C0A44 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
-		5511AC461AC450CB000C0A44 /* gokul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gokul.jpg; path = ../../../../Photos/gokul.jpg; sourceTree = "<group>"; };
 		5511AC481AC4514F000C0A44 /* saajan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saajan.jpg; sourceTree = SOURCE_ROOT; };
 		5511AC4A1AC4518A000C0A44 /* binjie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = binjie.jpg; sourceTree = SOURCE_ROOT; };
 		5511AC4C1AC4518E000C0A44 /* song.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = song.jpg; sourceTree = SOURCE_ROOT; };
+		5511AC591AC49FCA000C0A44 /* gokul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gokul.jpg; sourceTree = SOURCE_ROOT; };
 		55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zazu Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DF2E7E1AC42FB400496B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5511AC4E1AC45F1A000C0A44 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5511AC591AC49FCA000C0A44 /* gokul.jpg */,
+				5511AC4A1AC4518A000C0A44 /* binjie.jpg */,
+				5511AC4C1AC4518E000C0A44 /* song.jpg */,
+				5511AC481AC4514F000C0A44 /* saajan.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		55DF2E711AC42FB400496B13 = {
 			isa = PBXGroup;
 			children = (
@@ -89,11 +100,8 @@
 		55DF2E7C1AC42FB400496B13 /* Zazu Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5511AC4E1AC45F1A000C0A44 /* Images */,
 				5511AC441AC44DD8000C0A44 /* Event.swift */,
-				5511AC4A1AC4518A000C0A44 /* binjie.jpg */,
-				5511AC4C1AC4518E000C0A44 /* song.jpg */,
-				5511AC481AC4514F000C0A44 /* saajan.jpg */,
-				5511AC461AC450CB000C0A44 /* gokul.jpg */,
 				55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */,
 				55DF2E811AC42FB400496B13 /* ViewController.swift */,
 				55DF2E831AC42FB400496B13 /* Main.storyboard */,
@@ -212,7 +220,7 @@
 			files = (
 				5511AC4D1AC4518E000C0A44 /* song.jpg in Resources */,
 				5511AC491AC4514F000C0A44 /* saajan.jpg in Resources */,
-				5511AC471AC450CB000C0A44 /* gokul.jpg in Resources */,
+				5511AC5A1AC49FCA000C0A44 /* gokul.jpg in Resources */,
 				5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */,
 				55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */,
 				55DF2E8A1AC42FB400496B13 /* LaunchScreen.xib in Resources */,

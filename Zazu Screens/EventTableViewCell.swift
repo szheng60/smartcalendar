@@ -38,5 +38,14 @@ class EventTableViewCell: UITableViewCell
     {
         super.setSelected(selected, animated: animated)
     }
-
+    
+    func setCell(eventNameText: String, status: String, eventTimeText: String, eventAttendeesText: String, eventCreatorImage: String)
+    {
+        self.titleLabel.text = eventNameText
+        self.timeLabel.text = eventTimeText
+        self.attendeesLabel.text = eventAttendeesText
+        self.statusImageView.image = UIImage(named: "\(status)")
+        self.creatorImageView.image = UIImage(named: "\(eventCreatorImage)")
+        //self.creatorImageView.contentMode = UIViewContentMode.ScaleAspectFit
+    }
 }
