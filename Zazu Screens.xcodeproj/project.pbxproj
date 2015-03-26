@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5511AC431AC4450D000C0A44 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */; };
+		5511AC451AC44DD8000C0A44 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511AC441AC44DD8000C0A44 /* Event.swift */; };
+		5511AC471AC450CB000C0A44 /* gokul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC461AC450CB000C0A44 /* gokul.jpg */; };
+		5511AC491AC4514F000C0A44 /* saajan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC481AC4514F000C0A44 /* saajan.jpg */; };
+		5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4A1AC4518A000C0A44 /* binjie.jpg */; };
+		5511AC4D1AC4518E000C0A44 /* song.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5511AC4C1AC4518E000C0A44 /* song.jpg */; };
+		55DF2E801AC42FB400496B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */; };
+		55DF2E821AC42FB400496B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E811AC42FB400496B13 /* ViewController.swift */; };
+		55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2E831AC42FB400496B13 /* Main.storyboard */; };
+		55DF2E871AC42FB400496B13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2E861AC42FB400496B13 /* Images.xcassets */; };
+		55DF2E8A1AC42FB400496B13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2E881AC42FB400496B13 /* LaunchScreen.xib */; };
+		55DF2E961AC42FB400496B13 /* Zazu_ScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2E951AC42FB400496B13 /* Zazu_ScreensTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DF2E901AC42FB400496B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DF2E721AC42FB400496B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DF2E791AC42FB400496B13;
+			remoteInfo = "Zazu Screens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		5511AC441AC44DD8000C0A44 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
+		5511AC461AC450CB000C0A44 /* gokul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gokul.jpg; path = ../../../../Photos/gokul.jpg; sourceTree = "<group>"; };
+		5511AC481AC4514F000C0A44 /* saajan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saajan.jpg; sourceTree = SOURCE_ROOT; };
+		5511AC4A1AC4518A000C0A44 /* binjie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = binjie.jpg; sourceTree = SOURCE_ROOT; };
+		5511AC4C1AC4518E000C0A44 /* song.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = song.jpg; sourceTree = SOURCE_ROOT; };
+		55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zazu Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF2E7E1AC42FB400496B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DF2E811AC42FB400496B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55DF2E841AC42FB400496B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DF2E861AC42FB400496B13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55DF2E891AC42FB400496B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55DF2E8F1AC42FB400496B13 /* Zazu ScreensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zazu ScreensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF2E941AC42FB400496B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF2E951AC42FB400496B13 /* Zazu_ScreensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zazu_ScreensTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DF2E771AC42FB400496B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF2E8C1AC42FB400496B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DF2E711AC42FB400496B13 = {
+			isa = PBXGroup;
+			children = (
+				55DF2E7C1AC42FB400496B13 /* Zazu Screens */,
+				55DF2E921AC42FB400496B13 /* Zazu ScreensTests */,
+				55DF2E7B1AC42FB400496B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DF2E7B1AC42FB400496B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */,
+				55DF2E8F1AC42FB400496B13 /* Zazu ScreensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DF2E7C1AC42FB400496B13 /* Zazu Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5511AC441AC44DD8000C0A44 /* Event.swift */,
+				5511AC4A1AC4518A000C0A44 /* binjie.jpg */,
+				5511AC4C1AC4518E000C0A44 /* song.jpg */,
+				5511AC481AC4514F000C0A44 /* saajan.jpg */,
+				5511AC461AC450CB000C0A44 /* gokul.jpg */,
+				55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */,
+				55DF2E811AC42FB400496B13 /* ViewController.swift */,
+				55DF2E831AC42FB400496B13 /* Main.storyboard */,
+				5511AC421AC4450D000C0A44 /* EventTableViewCell.swift */,
+				55DF2E861AC42FB400496B13 /* Images.xcassets */,
+				55DF2E881AC42FB400496B13 /* LaunchScreen.xib */,
+				55DF2E7D1AC42FB400496B13 /* Supporting Files */,
+			);
+			path = "Zazu Screens";
+			sourceTree = "<group>";
+		};
+		55DF2E7D1AC42FB400496B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2E7E1AC42FB400496B13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DF2E921AC42FB400496B13 /* Zazu ScreensTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2E951AC42FB400496B13 /* Zazu_ScreensTests.swift */,
+				55DF2E931AC42FB400496B13 /* Supporting Files */,
+			);
+			path = "Zazu ScreensTests";
+			sourceTree = "<group>";
+		};
+		55DF2E931AC42FB400496B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2E941AC42FB400496B13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DF2E791AC42FB400496B13 /* Zazu Screens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF2E991AC42FB400496B13 /* Build configuration list for PBXNativeTarget "Zazu Screens" */;
+			buildPhases = (
+				55DF2E761AC42FB400496B13 /* Sources */,
+				55DF2E771AC42FB400496B13 /* Frameworks */,
+				55DF2E781AC42FB400496B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zazu Screens";
+			productName = "Zazu Screens";
+			productReference = 55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DF2E8E1AC42FB400496B13 /* Zazu ScreensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF2E9C1AC42FB400496B13 /* Build configuration list for PBXNativeTarget "Zazu ScreensTests" */;
+			buildPhases = (
+				55DF2E8B1AC42FB400496B13 /* Sources */,
+				55DF2E8C1AC42FB400496B13 /* Frameworks */,
+				55DF2E8D1AC42FB400496B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DF2E911AC42FB400496B13 /* PBXTargetDependency */,
+			);
+			name = "Zazu ScreensTests";
+			productName = "Zazu ScreensTests";
+			productReference = 55DF2E8F1AC42FB400496B13 /* Zazu ScreensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DF2E721AC42FB400496B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Zazu Labs";
+				TargetAttributes = {
+					55DF2E791AC42FB400496B13 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					55DF2E8E1AC42FB400496B13 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 55DF2E791AC42FB400496B13;
+					};
+				};
+			};
+			buildConfigurationList = 55DF2E751AC42FB400496B13 /* Build configuration list for PBXProject "Zazu Screens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DF2E711AC42FB400496B13;
+			productRefGroup = 55DF2E7B1AC42FB400496B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DF2E791AC42FB400496B13 /* Zazu Screens */,
+				55DF2E8E1AC42FB400496B13 /* Zazu ScreensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DF2E781AC42FB400496B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5511AC4D1AC4518E000C0A44 /* song.jpg in Resources */,
+				5511AC491AC4514F000C0A44 /* saajan.jpg in Resources */,
+				5511AC471AC450CB000C0A44 /* gokul.jpg in Resources */,
+				5511AC4B1AC4518A000C0A44 /* binjie.jpg in Resources */,
+				55DF2E851AC42FB400496B13 /* Main.storyboard in Resources */,
+				55DF2E8A1AC42FB400496B13 /* LaunchScreen.xib in Resources */,
+				55DF2E871AC42FB400496B13 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF2E8D1AC42FB400496B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DF2E761AC42FB400496B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5511AC451AC44DD8000C0A44 /* Event.swift in Sources */,
+				5511AC431AC4450D000C0A44 /* EventTableViewCell.swift in Sources */,
+				55DF2E821AC42FB400496B13 /* ViewController.swift in Sources */,
+				55DF2E801AC42FB400496B13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF2E8B1AC42FB400496B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF2E961AC42FB400496B13 /* Zazu_ScreensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DF2E911AC42FB400496B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DF2E791AC42FB400496B13 /* Zazu Screens */;
+			targetProxy = 55DF2E901AC42FB400496B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DF2E831AC42FB400496B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DF2E841AC42FB400496B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DF2E881AC42FB400496B13 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DF2E891AC42FB400496B13 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DF2E971AC42FB400496B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DF2E981AC42FB400496B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DF2E9A1AC42FB400496B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zazu Screens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55DF2E9B1AC42FB400496B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zazu Screens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55DF2E9D1AC42FB400496B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zazu ScreensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zazu Screens.app/Zazu Screens";
+			};
+			name = Debug;
+		};
+		55DF2E9E1AC42FB400496B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zazu ScreensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zazu Screens.app/Zazu Screens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DF2E751AC42FB400496B13 /* Build configuration list for PBXProject "Zazu Screens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF2E971AC42FB400496B13 /* Debug */,
+				55DF2E981AC42FB400496B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DF2E991AC42FB400496B13 /* Build configuration list for PBXNativeTarget "Zazu Screens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF2E9A1AC42FB400496B13 /* Debug */,
+				55DF2E9B1AC42FB400496B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DF2E9C1AC42FB400496B13 /* Build configuration list for PBXNativeTarget "Zazu ScreensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF2E9D1AC42FB400496B13 /* Debug */,
+				55DF2E9E1AC42FB400496B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DF2E721AC42FB400496B13 /* Project object */;
+}
