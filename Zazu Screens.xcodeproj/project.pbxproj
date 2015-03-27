@@ -49,7 +49,7 @@
 		55D3E20A1AC4B68500B8B762 /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopDateViewController.swift; path = PopDatePicker/PopDateViewController.swift; sourceTree = "<group>"; };
 		55D3E20C1AC4B6C300B8B762 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopDateViewController.xib; path = PopDatePicker/PopDateViewController.xib; sourceTree = "<group>"; };
 		55D3E20E1AC4C85400B8B762 /* AddInviteesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddInviteesViewController.swift; path = ../AddInviteesViewController.swift; sourceTree = "<group>"; };
-		55D3E2101AC4E39900B8B762 /* DetailEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEventViewController.swift; sourceTree = "<group>"; };
+		55D3E2101AC4E39900B8B762 /* DetailEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailEventViewController.swift; path = ../DetailEventViewController.swift; sourceTree = "<group>"; };
 		55DF2E7A1AC42FB400496B13 /* Zazu Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zazu Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DF2E7E1AC42FB400496B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +94,6 @@
 		55DF2E711AC42FB400496B13 = {
 			isa = PBXGroup;
 			children = (
-				55D3E2101AC4E39900B8B762 /* DetailEventViewController.swift */,
 				55DF2E7C1AC42FB400496B13 /* Zazu Screens */,
 				55DF2E921AC42FB400496B13 /* Zazu ScreensTests */,
 				55DF2E7B1AC42FB400496B13 /* Products */,
@@ -116,6 +115,7 @@
 				5511AC4E1AC45F1A000C0A44 /* Images */,
 				55DF2E831AC42FB400496B13 /* Main.storyboard */,
 				5511AC441AC44DD8000C0A44 /* Event.swift */,
+				55D3E2101AC4E39900B8B762 /* DetailEventViewController.swift */,
 				55D3E20E1AC4C85400B8B762 /* AddInviteesViewController.swift */,
 				55DF2E7F1AC42FB400496B13 /* AppDelegate.swift */,
 				55DF2E811AC42FB400496B13 /* ViewController.swift */,

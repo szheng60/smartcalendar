@@ -68,6 +68,43 @@ class CreateMeetingViewController: UIViewController, UITextFieldDelegate, UITabl
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    
+    @IBAction func createMeetingAction(sender: AnyObject)
+    {
+        meetingName = meetingNameTextField.text
+        //TO-DO: Add popup asking for meeting name
+        if meetingName == nil
+        {
+            return
+        }
+        
+        meetingDescription = meetingDescriptionTextView.text
+        fromDate = fromDateTextField.text
+        toDate = toDateTextField.text
+        decideByDate = decideByDateTextField.text
+        duration = durationTextField.text
+        
+        
+        //Go through the participants array and convert to string
+        
+        
+        var participants:String = ", ".join(dataPassed)
+        
+        //var newEvent: Event = Event(name: meetingName!, desc: meetingDescription!, duration: duration!, email: "gokul2005@gmail.com", attendees: participants, sd: fromDate!, ed: toDate!, dd: decideByDate!, status: "new", image: "gokul.jpg")
+        
+        var navigationController = self.navigationController! as UINavigationController
+        //var viewControllerCount = navigationController.viewControllers.count
+        //println(viewControllerCount)
+        var eventsViewController = navigationController.presentingViewController as ViewController
+        
+        eventsViewController.newEvent = Event(name: meetingName!, desc: meetingDescription!, duration: duration!, email: "gokul2005@gmail.com", creator_name: "Gokul Raghuraman",attendees: participants, sd: fromDate!, ed: toDate!, dd: decideByDate!, status: "new", image: "gokul.jpg")
+        
+        eventsViewController.loadEvents()
+        
+        println("Pushing new event")
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     // For resigning text fields as first responders
     func resignTextFields()
     {
