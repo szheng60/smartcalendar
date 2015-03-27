@@ -11,19 +11,23 @@ import UIKit
 class CreateMeetingViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource
 {
     
-    //Data passed from contacts screen
+    //Invitee data passed from contacts screen
     var dataPassed: Array<String>!
     
+    //Meeting data passed to contacts screen
+    var meetingName: String?
+    var meetingDescription: String?
+    var fromDate: String?
+    var toDate: String?
+    var decideByDate: String?
+    var duration: String?
+    
     @IBOutlet weak var meetingNameTextField: UITextField!
-    
     @IBOutlet weak var meetingDescriptionTextView: UITextView!
-    
     @IBOutlet weak var fromDateTextField: UITextField!
     @IBOutlet weak var toDateTextField: UITextField!
     @IBOutlet weak var decideByDateTextField: UITextField!
-    
     @IBOutlet weak var durationTextField: UITextField!
-    
     @IBOutlet weak var inviteesTableView: UITableView!
     
     
@@ -54,6 +58,9 @@ class CreateMeetingViewController: UIViewController, UITextFieldDelegate, UITabl
         {
             dataPassed = []
         }
+        
+        //Re-populate text fields with data saved from last segue to contacts screen
+        refillTextFields()
     }
     
     @IBAction func cancelButtonAction(sender: AnyObject)
@@ -73,6 +80,34 @@ class CreateMeetingViewController: UIViewController, UITextFieldDelegate, UITabl
     func dismissKeyboard()
     {
         view.endEditing(true)
+    }
+    
+    func refillTextFields()
+    {
+        if meetingName != nil
+        {
+            meetingNameTextField.text = meetingName
+        }
+        if meetingDescription != nil
+        {
+            meetingDescriptionTextView.text = meetingDescription
+        }
+        if fromDate != nil
+        {
+            fromDateTextField.text = fromDate
+        }
+        if toDate != nil
+        {
+            toDateTextField.text = toDate
+        }
+        if decideByDate != nil
+        {
+            decideByDateTextField.text = decideByDate
+        }
+        if duration != nil
+        {
+            durationTextField.text = duration
+        }
     }
     
     func textFieldShouldBeginEditing(textField: UITextField) -> Bool
@@ -148,9 +183,23 @@ class CreateMeetingViewController: UIViewController, UITextFieldDelegate, UITabl
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell = inviteesTableView.dequeueReusableCellWithIdentifier("InviteesCell") as UITableViewCell
+        let cell = inviteesTableView.dequeueReusableCellWithIdentifier("InviteeCell") as UITableViewCell
         cell.textLabel?.text = dataPassed[indexPath.row]
         return cell
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        if segue.identifier == "AddInvitees"
+        {
+            var addInviteesViewController = segue.destinationViewController as AddInviteesViewController
+            addInviteesViewController.meetingName = meetingName
+            addInviteesViewController.meetingDescription = meetingDescription
+            addInviteesViewController.fromDate = fromDate
+            addInviteesViewController.toDate = toDate
+            addInviteesViewController.decideByDate = decideByDate
+            addInviteesViewController.duration = duration
+        }
     }
 
     

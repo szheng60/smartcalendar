@@ -44,7 +44,14 @@ class EventTableViewCell: UITableViewCell
         self.titleLabel.text = eventNameText
         self.timeLabel.text = eventTimeText
         self.attendeesLabel.text = eventAttendeesText
-        self.statusImageView.image = UIImage(named: "\(status)")
+        if status == "passed"
+        {
+            statusImageView.hidden = true
+        }
+        else
+        {
+            self.statusImageView.image = UIImage(named: "\(status)")
+        }
         self.creatorImageView.image = UIImage(named: "\(eventCreatorImage)")
         //self.creatorImageView.contentMode = UIViewContentMode.ScaleAspectFit
     }
