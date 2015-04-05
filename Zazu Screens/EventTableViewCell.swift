@@ -39,13 +39,13 @@ class EventTableViewCell: UITableViewCell
         super.setSelected(selected, animated: animated)
     }
     
-    func setCell(eventNameText: String, status: String, eventTimeText: String, eventAttendeesText: String, eventCreatorName: String, eventCreatorImage: String)
+    func setCell(eventNameText: String, status: String, eventTimeText: String, eventAttendeesText: String, eventCreatorName: String)//, eventCreatorImage: String)
     {
         self.titleLabel.text = eventNameText
         self.timeLabel.text = eventTimeText
         self.attendeesLabel.text = eventAttendeesText
         self.creatorLabel.text = "created by " + eventCreatorName
-        if status == "passed"
+        if status == "0"
         {
             statusImageView.hidden = true
         }
@@ -53,7 +53,7 @@ class EventTableViewCell: UITableViewCell
         {
             self.statusImageView.image = UIImage(named: "\(status)")
         }
-        self.creatorImageView.image = UIImage(named: "\(eventCreatorImage)")
+        //self.creatorImageView.image = UIImage(named: "\(eventCreatorImage)")
         //self.creatorImageView.contentMode = UIViewContentMode.ScaleAspectFit
     }
 }

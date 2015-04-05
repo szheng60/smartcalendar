@@ -12,22 +12,46 @@
 	<dict>
 		<key>6654549432DAA0A7C3C940384682F9F6742D6E8B</key>
 		<string>https://github.com/gokul-raghuraman/smart-scheduler</string>
+		<key>C2416BFA3F542678C9D1EC269FB92BD1DB28ED52</key>
+		<string>https://github.gatech.edu/ayp3/Smart-Scheduler.git</string>
+		<key>DDD217B35A4D2F767A2527ABB4F5DF5E3E1B6A0F</key>
+		<string>https://github.gatech.edu/szheng60/smartcalendar</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Zazu Screens.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6654549432DAA0A7C3C940384682F9F6742D6E8B</key>
+		<string>../../../Zazu%20Screens</string>
+		<key>C2416BFA3F542678C9D1EC269FB92BD1DB28ED52</key>
+		<string>../../../new%20version/Smart-Scheduler</string>
+		<key>DDD217B35A4D2F767A2527ABB4F5DF5E3E1B6A0F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/gokul-raghuraman/smart-scheduler</string>
+	<string>https://github.gatech.edu/szheng60/smartcalendar</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6654549432DAA0A7C3C940384682F9F6742D6E8B</string>
+	<string>DDD217B35A4D2F767A2527ABB4F5DF5E3E1B6A0F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2416BFA3F542678C9D1EC269FB92BD1DB28ED52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smart-Scheduler</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDD217B35A4D2F767A2527ABB4F5DF5E3E1B6A0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smart%20Scheduler</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
